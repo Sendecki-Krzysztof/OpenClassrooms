@@ -54,5 +54,6 @@ def searchSiteForCourses(conn, page):
             methodOfSession = sessionInfo[8].text.strip()
             database.addCourse(conn, courseNumber, CRNOfSession, typeOfSession, timeOfSession, daysOfSession,
                                roomOfSession, buildingOfSession, instructorOfSession, methodOfSession)
-            print(courseNumber, CRNOfSession, typeOfSession, timeOfSession, daysOfSession, roomOfSession,
-                  buildingOfSession, instructorOfSession, methodOfSession)
+            # print(courseNumber, CRNOfSession, typeOfSession, timeOfSession, daysOfSession, roomOfSession,
+            #      buildingOfSession, instructorOfSession, methodOfSession)
+

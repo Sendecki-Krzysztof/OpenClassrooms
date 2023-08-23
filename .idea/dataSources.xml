@@ -20,7 +20,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Fall2023" uuid="f9a1ca12-0dc8-4007-b6fd-cc0b04c9d813">
+    <data-source source="LOCAL" name="Fall2023" uuid="6a55d84d-d782-4916-aac4-f432f10b10e4">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
